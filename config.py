@@ -70,7 +70,7 @@ class HParameters:
 
 if __name__ == "__main__":
 
-    # Tests
+    # Test
     hps = HParameters()
     print(hps)
 
