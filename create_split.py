@@ -26,7 +26,7 @@ parser = argparse.ArgumentParser("Code to create splits in json form")
 parser.add_argument('-d', '--dataset', type=str, required=True, help="path to h5 dataset (required)")
 parser.add_argument('--save-dir', type=str, default='datasets', help="path to save output json file (default: 'datasets/')")
 parser.add_argument('--save-name', type=str, default='splits', help="name to save as, excluding extension (default: 'splits')")
-parser.add_argument('--num-splits', type=int, default=5, help="how many splits to generate (default: 5)")
+parser.add_argument('--num-splits', type=int, default=3, help="how many splits to generate (default: 5)")
 parser.add_argument('--train-percent', type=float, default=0.8, help="percentage of training data (default: 0.8)")
 
 args = parser.parse_args()
